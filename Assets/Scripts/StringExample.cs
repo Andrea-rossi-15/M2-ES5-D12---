@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class StringExample : MonoBehaviour
 {
-    public string Dialogo = "Sono sempre attento";
+    public string Dialogo = "(VakoreA; ValoreB) Tranquillo io sono sempre attento" ;
     // Start is called before the first frame update
     void Start()
     {

@@ -342,6 +342,8 @@ GameObject:
   m_Component:
   - component: {fileID: 637761090}
   - component: {fileID: 637761091}
+  - component: {fileID: 637761092}
+  - component: {fileID: 637761093}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -371,12 +373,41 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637761088}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a85129d1ece0e488c9acad8586017dd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   numeroMax: 10
+--- !u!114 &637761092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637761088}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02441e13afe61472ba7d246946b4e92b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatoAttuale: 0
+--- !u!114 &637761093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637761088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427bfb5685d694d84bb9855695c62dde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackType: 0
+  resistence: 0
+  weakness: 3
+  baseDamage: 1000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
